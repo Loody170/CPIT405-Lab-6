@@ -35,7 +35,7 @@ function disableButtons(){
     dislikesBtn.disabled = true;
 }
 
-// function setCookie(){
-//     document.cookie = "voted=false";
-//     document.cookie = "Max-Age="+60;
-// }
+function setCookie(){
+    document.cookie = "voted=false";
+    document.cookie = "Max-Age="+60;
+}
